@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simon dice</title>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row align-items-center">
+          <div class="col-sm-8">
+            <div class="alert alert-primary" role="alert" id="estado">Estado del juego</div>
+          </div>
+          <div class="col-sm text-center">
+            <p>Ronda # <strong id="ronda">0</strong></p>
+          </div>
+          <div class="col-sm text-center">
+            <button type="button" class="btn btn-primary" id="boton-empezar">Empezar</button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container" id="tablero">
+        <div class="row">
+          <div class="col-sm">
+            <div id="cuadro-1" class="cuadro">A</div>
+          </div>
+          <div class="col-sm">
+            <div id="cuadro-2" class="cuadro">B</div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-sm">
+            <div id="cuadro-3" class="cuadro">C</div>
+          </div>
+          <div class="col-sm">
+            <div id="cuadro-4" class="cuadro">D</div>
+          </div>
+        </div>
+      </div>
+    </body>
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "simon-dice",
+  "version": "1.0.0",
+  "description": "Juego de Simon dice",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanpa33/Simon-dice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanpa33/Simon-dice/issues"
+  },
+  "homepage": "https://github.com/Sanpa33/Simon-dice#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
