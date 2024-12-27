@@ -12,13 +12,13 @@
     <div class="container mt-5">
         <div class="row align-items-center">
           <div class="col-sm-8">
-            <div class="alert alert-primary" role="alert" id="estado">Estado del juego</div>
+            <div class="fw-bolder" role="alert" id="estado" >Bienvenido a Simon Dice !</div>
+          </div>
+          <div class="col-sm text-center caja-azul">
+            Ronda #<strong id="ronda"></strong>
           </div>
           <div class="col-sm text-center">
-            <p>Ronda # <strong id="ronda">0</strong></p>
-          </div>
-          <div class="col-sm text-center">
-            <button type="button" class="btn btn-primary" id="boton-empezar">Empezar</button>
+            <button type="button" class="btn btn-outline-primary" id="boton-empezar">Empezar</button>
           </div>
         </div>
       </div>
@@ -43,7 +43,9 @@
       </div>
     </body>
 
-    <script src="main.js"></script>
+
+    <audio id="audio" src="sonidos/burbuja.mp3"></audio>
+    <script src="/src/main.js"></script>
 
 </body>
 </html>
