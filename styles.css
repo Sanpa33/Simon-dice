@@ -32,11 +32,6 @@ body {
     font-weight: bold;
   }
 
-  .cuadro:hover {
-    opacity: 1;
-    transform: scale(1.05); 
-  }
-
   #cuadro-1 {
     background-color: #f14646; 
   }
@@ -75,9 +70,17 @@ body {
   }
 
 
-#estado{
-    background-color: #ADD8E6; /* Celeste personalizado */
+.estado{
+    background-color: #ADD8E6;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.estado2{
+  background-color: #ca6161;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
