@@ -3,6 +3,7 @@
 
 Bienvenido a Simón Dice Interactivo, un juego para poner a prueba tu memoria y habilidades de concentración. Este proyecto es una implementación moderna y divertida del clásico juego Simón Dice.
 
+![Demostración del Juego](assets/videoTest.gif)
 
 
 ## Instalación
