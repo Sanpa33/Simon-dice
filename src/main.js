@@ -51,11 +51,11 @@ function actualizarEstado(estado, error = false) {
     $estado.textContent = estado;
     
     if (error) {
-      $estado.classList.remove('alert-primary');
-      $estado.classList.add('alert-danger');
+      $estado.classList.remove('estado');
+      $estado.classList.add('estado2');
     } else {
-      $estado.classList.remove('alert-danger');
-      $estado.classList.add('alert-primary');
+      $estado.classList.remove('estado2');
+      $estado.classList.add('estado');
     }
 
 }
@@ -93,7 +93,7 @@ function resaltar($cuadro) {
         $cuadro.style.transform = 'scale(1)'; // Regresa al tamaño original
         $cuadro.style.opacity = 0.6; // Retorna a la opacidad original
     }, 500);
-  }
+}
 
 
 
